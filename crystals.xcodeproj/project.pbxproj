@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421BA79A286117C90060D5EE /* crystalsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BA799286117C90060D5EE /* crystalsApp.swift */; };
+		421BA79C286117C90060D5EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BA79B286117C90060D5EE /* ContentView.swift */; };
+		421BA79E286117CA0060D5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421BA79D286117CA0060D5EE /* Assets.xcassets */; };
+		421BA7A2286117CA0060D5EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421BA7A1286117CA0060D5EE /* Preview Assets.xcassets */; };
+		421BA7AC286117CB0060D5EE /* crystalsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BA7AB286117CB0060D5EE /* crystalsTests.swift */; };
+		421BA7B6286117CB0060D5EE /* crystalsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BA7B5286117CB0060D5EE /* crystalsUITests.swift */; };
+		421BA7B8286117CB0060D5EE /* crystalsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421BA7B7286117CB0060D5EE /* crystalsUITestsLaunchTests.swift */; };
+		423BA8D82863BCE70049EA3E /* CrystalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423BA8D72863BCE70049EA3E /* CrystalView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421BA7A8286117CB0060D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421BA78E286117C90060D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421BA795286117C90060D5EE;
+			remoteInfo = crystals;
+		};
+		421BA7B2286117CB0060D5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421BA78E286117C90060D5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421BA795286117C90060D5EE;
+			remoteInfo = crystals;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421BA796286117C90060D5EE /* crystals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crystals.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		421BA799286117C90060D5EE /* crystalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalsApp.swift; sourceTree = "<group>"; };
+		421BA79B286117C90060D5EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		421BA79D286117CA0060D5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421BA79F286117CA0060D5EE /* crystals.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = crystals.entitlements; sourceTree = "<group>"; };
+		421BA7A1286117CA0060D5EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		421BA7A7286117CB0060D5EE /* crystalsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crystalsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421BA7AB286117CB0060D5EE /* crystalsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalsTests.swift; sourceTree = "<group>"; };
+		421BA7B1286117CB0060D5EE /* crystalsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crystalsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		421BA7B5286117CB0060D5EE /* crystalsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalsUITests.swift; sourceTree = "<group>"; };
+		421BA7B7286117CB0060D5EE /* crystalsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		423BA8D72863BCE70049EA3E /* CrystalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrystalView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421BA793286117C90060D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7A4286117CB0060D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7AE286117CB0060D5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421BA78D286117C90060D5EE = {
+			isa = PBXGroup;
+			children = (
+				421BA798286117C90060D5EE /* crystals */,
+				421BA7AA286117CB0060D5EE /* crystalsTests */,
+				421BA7B4286117CB0060D5EE /* crystalsUITests */,
+				421BA797286117C90060D5EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		421BA797286117C90060D5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421BA796286117C90060D5EE /* crystals.app */,
+				421BA7A7286117CB0060D5EE /* crystalsTests.xctest */,
+				421BA7B1286117CB0060D5EE /* crystalsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421BA798286117C90060D5EE /* crystals */ = {
+			isa = PBXGroup;
+			children = (
+				421BA799286117C90060D5EE /* crystalsApp.swift */,
+				421BA79B286117C90060D5EE /* ContentView.swift */,
+				423BA8D72863BCE70049EA3E /* CrystalView.swift */,
+				421BA79D286117CA0060D5EE /* Assets.xcassets */,
+				421BA79F286117CA0060D5EE /* crystals.entitlements */,
+				421BA7A0286117CA0060D5EE /* Preview Content */,
+			);
+			path = crystals;
+			sourceTree = "<group>";
+		};
+		421BA7A0286117CA0060D5EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				421BA7A1286117CA0060D5EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		421BA7AA286117CB0060D5EE /* crystalsTests */ = {
+			isa = PBXGroup;
+			children = (
+				421BA7AB286117CB0060D5EE /* crystalsTests.swift */,
+			);
+			path = crystalsTests;
+			sourceTree = "<group>";
+		};
+		421BA7B4286117CB0060D5EE /* crystalsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421BA7B5286117CB0060D5EE /* crystalsUITests.swift */,
+				421BA7B7286117CB0060D5EE /* crystalsUITestsLaunchTests.swift */,
+			);
+			path = crystalsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421BA795286117C90060D5EE /* crystals */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421BA7BB286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystals" */;
+			buildPhases = (
+				421BA792286117C90060D5EE /* Sources */,
+				421BA793286117C90060D5EE /* Frameworks */,
+				421BA794286117C90060D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crystals;
+			productName = crystals;
+			productReference = 421BA796286117C90060D5EE /* crystals.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421BA7A6286117CB0060D5EE /* crystalsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421BA7BE286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystalsTests" */;
+			buildPhases = (
+				421BA7A3286117CB0060D5EE /* Sources */,
+				421BA7A4286117CB0060D5EE /* Frameworks */,
+				421BA7A5286117CB0060D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421BA7A9286117CB0060D5EE /* PBXTargetDependency */,
+			);
+			name = crystalsTests;
+			productName = crystalsTests;
+			productReference = 421BA7A7286117CB0060D5EE /* crystalsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421BA7B0286117CB0060D5EE /* crystalsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421BA7C1286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystalsUITests" */;
+			buildPhases = (
+				421BA7AD286117CB0060D5EE /* Sources */,
+				421BA7AE286117CB0060D5EE /* Frameworks */,
+				421BA7AF286117CB0060D5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421BA7B3286117CB0060D5EE /* PBXTargetDependency */,
+			);
+			name = crystalsUITests;
+			productName = crystalsUITests;
+			productReference = 421BA7B1286117CB0060D5EE /* crystalsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421BA78E286117C90060D5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					421BA795286117C90060D5EE = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					421BA7A6286117CB0060D5EE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 421BA795286117C90060D5EE;
+					};
+					421BA7B0286117CB0060D5EE = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 421BA795286117C90060D5EE;
+					};
+				};
+			};
+			buildConfigurationList = 421BA791286117C90060D5EE /* Build configuration list for PBXProject "crystals" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421BA78D286117C90060D5EE;
+			productRefGroup = 421BA797286117C90060D5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421BA795286117C90060D5EE /* crystals */,
+				421BA7A6286117CB0060D5EE /* crystalsTests */,
+				421BA7B0286117CB0060D5EE /* crystalsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421BA794286117C90060D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BA7A2286117CA0060D5EE /* Preview Assets.xcassets in Resources */,
+				421BA79E286117CA0060D5EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7A5286117CB0060D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7AF286117CB0060D5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421BA792286117C90060D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BA79C286117C90060D5EE /* ContentView.swift in Sources */,
+				423BA8D82863BCE70049EA3E /* CrystalView.swift in Sources */,
+				421BA79A286117C90060D5EE /* crystalsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7A3286117CB0060D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BA7AC286117CB0060D5EE /* crystalsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421BA7AD286117CB0060D5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421BA7B8286117CB0060D5EE /* crystalsUITestsLaunchTests.swift in Sources */,
+				421BA7B6286117CB0060D5EE /* crystalsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421BA7A9286117CB0060D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421BA795286117C90060D5EE /* crystals */;
+			targetProxy = 421BA7A8286117CB0060D5EE /* PBXContainerItemProxy */;
+		};
+		421BA7B3286117CB0060D5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421BA795286117C90060D5EE /* crystals */;
+			targetProxy = 421BA7B2286117CB0060D5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		421BA7B9286117CB0060D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421BA7BA286117CB0060D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		421BA7BC286117CB0060D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = crystals/crystals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crystals/Preview Content\"";
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421BA7BD286117CB0060D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = crystals/crystals.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"crystals/Preview Content\"";
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystals;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		421BA7BF286117CB0060D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crystals";
+			};
+			name = Debug;
+		};
+		421BA7C0286117CB0060D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystalsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystals.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/crystals";
+			};
+			name = Release;
+		};
+		421BA7C2286117CB0060D5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crystals;
+			};
+			name = Debug;
+		};
+		421BA7C3286117CB0060D5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9P29GH33DW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Maybulb.crystalsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = crystals;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421BA791286117C90060D5EE /* Build configuration list for PBXProject "crystals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421BA7B9286117CB0060D5EE /* Debug */,
+				421BA7BA286117CB0060D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421BA7BB286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystals" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421BA7BC286117CB0060D5EE /* Debug */,
+				421BA7BD286117CB0060D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421BA7BE286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystalsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421BA7BF286117CB0060D5EE /* Debug */,
+				421BA7C0286117CB0060D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421BA7C1286117CB0060D5EE /* Build configuration list for PBXNativeTarget "crystalsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421BA7C2286117CB0060D5EE /* Debug */,
+				421BA7C3286117CB0060D5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421BA78E286117C90060D5EE /* Project object */;
+}
