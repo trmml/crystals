@@ -7,27 +7,42 @@
 
 import SwiftUI
 
-struct Crystal: Hashable, Codable, Identifiable {
+struct Crystal: Codable, Identifiable {
     var id = UUID()
-    let composition, formation, colour: String
+    let composition, formation, colour, image: String
     let metaphysical: [String]
     
     enum CodingKeys: String, CodingKey{
-        case composition, formation, colour, metaphysical
-    }
-    
-    init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        composition = try container.decode(String.self, forKey: .composition)
-        formation = try container.decode(String.self, forKey: .formation)
-        colour = try container.decode(String.self, forKey: .colour)
-        metaphysical = try container.decode([String].self, forKey: .metaphysical)
+        case composition, formation, colour, image, metaphysical
     }
 }
 
 struct CrystalView: View {
+    @State var crystal: Crystal?
+    @State var key = ""
+    
     var body: some View {
-        Text("Test")
+        ZStack {
+            AsyncImage(url: URL(string: crystal!.image)) { img in
+                img
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 500, height: 500)
+                    .edgesIgnoringSafeArea(.all)
+            } placeholder: {
+                ProgressView()
+            }.frame(width: 200, height: 200)
+        }
+        List {
+            Text(key).font(.largeTitle)
+            Text(crystal!.composition)
+            Text(crystal!.formation)
+            Text(crystal!.colour)
+            
+            ForEach(crystal!.metaphysical, id:\.self) { meta in
+                Text(meta)
+            }
+        }
     }
 }
 

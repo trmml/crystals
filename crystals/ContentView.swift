@@ -11,22 +11,19 @@ struct ContentView: View {
     @State private var crystals = [String:Crystal]()
     
     var body: some View {
-        Text("Crystals").font(.largeTitle)
         NavigationView {
             List {
-                ForEach(Array(crystals.keys), id:\.self) { key in
-                    HStack {
-                        NavigationLink(destination: CrystalView()) {
-                            Text(key)
-                        }
+                ForEach(Array(crystals.keys).sorted(), id:\.self) { key in
+                    NavigationLink(destination: CrystalView(crystal: crystals[key], key: key)) {
+                        Text(key)
                     }
                 }
-            }.onAppear(perform:loadData)
+            }.onAppear(perform: loadData)
         }
     }
     
     func loadData() {
-        guard let url = URL(string: "https://lit-castle-74820.herokuapp.com/api/crystals") else { return }
+        let url = URL(string: "https://lit-castle-74820.herokuapp.com/api/crystals")!
         URLSession.shared.dataTask(with: url) { data, _, error in
             guard let data = data else { return }
             do {
