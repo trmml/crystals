@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05B495742870DE4300602E55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		421BA796286117C90060D5EE /* crystals.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crystals.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		421BA799286117C90060D5EE /* crystalsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalsApp.swift; sourceTree = "<group>"; };
 		421BA79B286117C90060D5EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 		421BA798286117C90060D5EE /* crystals */ = {
 			isa = PBXGroup;
 			children = (
+				05B495742870DE4300602E55 /* Info.plist */,
 				421BA799286117C90060D5EE /* crystalsApp.swift */,
 				421BA79B286117C90060D5EE /* ContentView.swift */,
 				423BA8D72863BCE70049EA3E /* CrystalView.swift */,
@@ -423,6 +425,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = crystals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
@@ -456,6 +460,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = crystals/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;

@@ -22,8 +22,9 @@ struct CrystalView: View {
     @State var key = ""
     
     var body: some View {
+        let url = "https://crystal-identifier.herokuapp.com/img/"
         ZStack {
-            AsyncImage(url: URL(string: crystal!.image)) { img in
+            AsyncImage(url: URL(string: "\(url)\(crystal!.image)")) { img in
                 img
                     .resizable()
                     .scaledToFit()
