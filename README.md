@@ -1,1 +1,3 @@
 # crystals
+
+crystal list
